@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./imagenes/logo.svg">
+    <title>Trabajo Practico</title>
+</head>
+<body class="body1">
+    <nav>
+        <a href="./index.html">
+            <svg class="svgfooter" width="200" height="90">
+                <rect id="rectangulosvg" x="48px" y="2px" width="62px"height=42px
+                  fill="#253e54"   rx="6">
+            </rect>
+            <rect id="rectangulosvg0" x="51px" y="6px" width="55px" height="35px" fill="#639ccf" rx="8">
+                
+            </rect>
+            <polygon id="rectangulosvg" points="55 54, 105 55,125 73, 40 73 " fill="#253e54" ></polygon>
+            
+            <polygon id="rectangulosvg0" points="57 56, 102 57,117 70, 45 70 " fill="#639CCf"  ></polygon>
+            
+        </svg>
+            
+        </a>
+        <ul class="menu1">
+            <li class="boton">
+                <a class="link" href="./historia.html">Historia</a>
+            </li>
+            <li class="boton">
+                <a class="link" href="./juego.html">Juego</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="titulo">
+        <h1>
+        JUGUEMOS UN POCO
+        </h1>
+   </header>
+   <main>
+        <h2>Armemos el rompecabezas y veamos que imagen es...</h2>
+        <section class="sectionjuego">
+            <div class="rectangulos">
+                <div   class="rectangulo0" ondragover="prevenir(event)" ondrop="soltar(event)"  >
+                    <p class="texcuadro"> Arrastre y suelte la imagen aqui</p>
+                </div>
+                <div class="rectangulo1" ondragover="prevenir0(event)" ondrop="soltar0(event)">
+                    <p class="texcuadro0">Arrastre y suelte la imagen aqui</p>
+                </div>
+                <div class="rectangulo2" ondragover="prevenir1(event)" ondrop="soltar1(event)">
+                    <p class="texcuadro1">Arrastre y suelte la imagen aqui</p>
+                </div>
+            </div>
+            <div class="rectanguloimagenes">
+                <img  ondragstart="dato(event)"  class="rectangulofoto2"  src="./imagenes/Rompe3.png" alt="">
+                <img ondragstart="dato0(event)" class= "rectangulofoto1" src="./imagenes/rompe2.png" alt="">
+                <img ondragstart="dato1(event)" class="rectangulofoto0"   src="./imagenes/Rompe1.png" alt="">
+            </div>
+        </section>
+        
+        <button onclick="reinicio()" class="botonReiniciar">Reiniciar</button>
+             
+             
+</main>
+
+   
+    <footer>
+        <div class="footerizquierda">
+            <a href="./index.html">
+                <svg class="svgfooter" width="200" height="90">
+                    <rect id="rectangulosvg" x="48px" y="2px" width="62px"height=42px
+                      fill="#253e54"   rx="6">
+                </rect>
+                <rect id="rectangulosvg0" x="51px" y="6px" width="55px" height="35px" fill="#639ccf" rx="8">
+                    
+                </rect>
+                <polygon id="rectangulosvg" points="55 54, 105 55,125 73, 40 73 " fill="#253e54" ></polygon>
+                
+                <polygon id="rectangulosvg0" points="57 56, 102 57,117 70, 45 70 " fill="#639CCf"  ></polygon>
+                
+            </svg>
+                
+            </a>
+             <h3 class="titulofooter">PROGRAMACION E HISTORIA</h3>  
+        </div>
+        <p class="footerderecha">Sitio con fines educativos-Creado por M.Victoria Lopez
+     </p>
+    </footer>
+
+    </footer>
+    <script src="./scriptJuego.js"></script>
+</body>
+</html>
