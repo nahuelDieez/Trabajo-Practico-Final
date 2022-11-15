@@ -17,4 +17,3 @@ setTimeout(duracion,1000);
 const pause=()=>{
    video.pause()  
 }
-//vkjdflgjhfdñoglihdfpogijdsf´gpkdjf´g
